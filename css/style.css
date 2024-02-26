@@ -1,0 +1,65 @@
+@font-face {
+    font-family: rahulFont ;
+    src: url("../fonts/Chunk Five Print.otf");
+}
+
+footer{
+    border:1px solid green;
+    min-height:100px;
+    width:100%;
+    float:left;
+}
+
+header{
+    border:1px solid green;
+    min-height:100px;
+    width:100%;
+    font-family: rahulFont;
+}
+
+aside[data-aside="leftaside"]
+{
+    width:24%;
+    min-height:300px;
+    border:1px solid brown;
+    float:left;
+}
+
+.middlesection
+{
+    width:50%;
+    min-height:300px;
+    border:1px solid blue;
+    float:left;
+}
+
+aside[data-aside="rightaside"]
+{
+    width:25%;
+    min-height:300px;
+    border:1px solid blue;
+    float:left;
+}
+
+body
+{
+    margin:0px;
+}
+
+@media only screen and (max-width:600px)
+{
+    body{
+        background-color:red;
+    }
+    aside[data-aside="rightaside"]
+    {
+        width:24%;
+    }
+}
+
+@media only screen and (min-width:600px)
+{
+    body{
+        background-color:green;
+    }
+}
